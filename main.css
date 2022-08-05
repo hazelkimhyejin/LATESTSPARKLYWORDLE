@@ -1,0 +1,94 @@
+.navbar {
+  overflow: hidden;
+  background-color: #515def;
+  border: 2px solid #white;
+  border-radius: 8px;
+  padding: 5px;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.aboutus {
+  float: left;
+  overflow: hidden;
+  background-color: white;
+}
+.aboutus .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  text-decoration: none;
+}
+.navbar a:hover, .aboutus:hover .dropbtn {
+  background-color: #515def;
+}
+.aboutus-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px #515def;
+  z-index: 1;
+  text-decoration: none;
+}
+.aboutus-content a {
+  float: none;
+  color: #515def;
+  padding: 12px 16px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+}
+.aboutus-content a:hover {
+  background-color: #515def;
+  text-decoration: none;
+}
+.aboutus:hover .aboutus-content {
+  display: block;
+  text-decoration: none;
+}
+.howtoplay {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+p {
+  background-color:#515def;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  padding: none;
+  color: white;
+  text-decoration: none;
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+.gameBoard {
+  border: 2.5px outset grey;
+  background-color: white;    
+  text-align: center;
+}
