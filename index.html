@@ -16,8 +16,7 @@
 </head>
 
 <body>
-  <h1 class="glow">HAZEL'S SPARKLY WORDLE</h1>  
-  <h1 class="glow">HOW TO PLAY</h1>       
+  <h1 class="glow">HAZEL'S SPARKLY WORDLE</h1>
   <div class="howtoplay">
     <!-- <img src="marblesprofilepic.png" alt="marblesprofilepic" width="600" height="600">-->
     <p><img src="marblesprofilepic.png" alt="marblesprofilepic" style="max-width:100%;height:auto;"></p>
@@ -49,90 +48,136 @@
       </div>
       <p></p>
       <div class="gameBoard">
-        <p id="box1"></p>
-        <p id="box2"></p>
-        <p id="box3"></p>
-        <p id="box4"></p>
-        <p id="box5"></p>
-        <p id="box6"></p>
-      </div>
-      <div class="flex-container1">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-      </div>
-      <div class="flex-container2">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-      </div>
-      <div class="flex-container3">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-      </div>
-      <div class="flex-container4">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-      </div>
-      <div class="flex-container5">
-        <div>1</div>
-        <div>2</div>
-        <div>3</div>
-        <div>4</div>
-        <div>5</div>
-      </div>
-      <h1></h1>
-      <div id="keyboard-cont">
-        <div class="first-row">
-          <button class="keyboard-button">q</button>
-          <button class="keyboard-button">w</button>
-          <button class="keyboard-button">e</button>
-          <button class="keyboard-button">r</button>
-          <button class="keyboard-button">t</button>
-          <button class="keyboard-button">y</button>
-          <button class="keyboard-button">u</button>
-          <button class="keyboard-button">i</button>
-          <button class="keyboard-button">o</button>
-          <button class="keyboard-button">p</button>
+              <div class="row" id="rowdiv">
+                  <div class="box" id="letter0"></div>
+                  <div class="box" id="letter1"></div>
+                  <div class="box" id="letter2"></div>
+                  <div class="box" id="letter3"></div>
+                  <div class="box" id="letter4"></div>
+              </div>
+              <div class="row" id="rowalpha">
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+              </div>
+              <div class="row" id="rowbeta">
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+              </div>
+              <div class="row" id="rowcharlie">
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+              </div>
+              <div class="row" id="rowdelta">
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+              </div>
+              <div class="row" id="rowecho">
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+                  <div class="box"></div>
+              </div>
+          </div>
+  
+        <p id="gameboard"></p>
+<p id="demo"></p>
+        <div class="flexcontainer1">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
         </div>
-        <div class="second-row">
-          <button class="keyboard-button">a</button>
-          <button class="keyboard-button">s</button>
-          <button class="keyboard-button">d</button>
-          <button class="keyboard-button">f</button>
-          <button class="keyboard-button">g</button>
-          <button class="keyboard-button">h</button>
-          <button class="keyboard-button">j</button>
-          <button class="keyboard-button">k</button>
-          <button class="keyboard-button">l</button>
+        <div class="flexcontainer2">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
         </div>
-        <div class="third-row">
-          <button class="keyboard-button">Del</button>
-          <button class="keyboard-button">z</button>
-          <button class="keyboard-button">x</button>
-          <button class="keyboard-button">c</button>
-          <button class="keyboard-button">v</button>
-          <button class="keyboard-button">b</button>
-          <button class="keyboard-button">n</button>
-          <button class="keyboard-button">m</button>
-          <button class="keyboard-button">Enter</button>
+        <div class="flexcontainer3">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
         </div>
-      </div>
+        <div class="flexcontainer4">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+        </div>
+        <div class="flexcontainer5">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+        </div>
+        <div class="flexcontainer6">
+          <div>1</div>
+          <div>2</div>
+          <div>3</div>
+          <div>4</div>
+          <div>5</div>
+        </div>
+        <h1></h1>
+        <div id="keyboard-cont">
+          <div class="first-row">
+            <button class="keyboard-button">q</button>
+            <button class="keyboard-button">w</button>
+            <button class="keyboard-button">e</button>
+            <button class="keyboard-button">r</button>
+            <button class="keyboard-button">t</button>
+            <button class="keyboard-button">y</button>
+            <button class="keyboard-button">u</button>
+            <button class="keyboard-button">i</button>
+            <button class="keyboard-button">o</button>
+            <button class="keyboard-button">p</button>
+          </div>
+          <div class="second-row">
+            <button class="keyboard-button">a</button>
+            <button class="keyboard-button">s</button>
+            <button class="keyboard-button">d</button>
+            <button class="keyboard-button">f</button>
+            <button class="keyboard-button">g</button>
+            <button class="keyboard-button">h</button>
+            <button class="keyboard-button">j</button>
+            <button class="keyboard-button">k</button>
+            <button class="keyboard-button">l</button>
+          </div>
+          <div class="third-row">
+            <button class="keyboard-button">Del</button>
+            <button class="keyboard-button">z</button>
+            <button class="keyboard-button">x</button>
+            <button class="keyboard-button">c</button>
+            <button class="keyboard-button">v</button>
+            <button class="keyboard-button">b</button>
+            <button class="keyboard-button">n</button>
+            <button class="keyboard-button">m</button>
+            <button class="keyboard-button">Enter</button>
+          </div>
+        </div>
 
-    </div>
-    <div class="scores">
-      <button class="btn-hover color-3">SCORES</button>
-    </div>
+      </div>
+      <div class="scores">
+        <button class="btn-hover color-3">SCORES</button>
+      </div>
       <div id="score">
         <h1>Score Board</h1>
         <ol>

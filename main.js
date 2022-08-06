@@ -1,12 +1,24 @@
-import $ from "jquery";
-import { WORDS } from "./dictionary.js";
+// import $ from "jquery";
+// import { WORDS } from "./dictionary.js";
 // variables put all the way on top of javascript
 let currentLife = 0;
 const NUMBER_OF_GUESSES = 6;  //initialise global variables 
 let guessesRemaining = NUMBER_OF_GUESSES;
 let currentGuess = [];
 let nextLetter = 0;
-let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
+// let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
+
+const gameboard = ["box", "box", "box", "box", "box", "box"];
+let text1 = "Hello world!";
+let result1 = text1.repeat(4);
+
+let text = "";
+for (let i = 0; i < gameboard.length; i++) {
+  text += gameboard[i] + "<br>";
+}
+
+document.getElementById("gameboard").innerHTML = text;
+document.getElementById("demo").innerHTML = result1;
 
 //nooky
 //let rightGuessString = "WORDLE"
@@ -27,7 +39,12 @@ $(".btn2").click(function(){
   $("howtoplay").show();
 });
 });
-let text = "box";
+
+for (let i = 0; i < gameboard.length; i++) {
+    text += gameboard[i] + "<br>";
+  }
+  document.getElementById("gameboard").innerHTML = result;
+
 let result = text.repeat(5);
 document.getElementById("box1").innerHTML = result;
 let text2 = "box2";
@@ -177,15 +194,6 @@ function myFunction() {
   // variable 
   // function
 
-
-  import { WORDS } from "./word.js";
-
-const NUMBER_OF_GUESSES = 6;
-let guessesRemaining = NUMBER_OF_GUESSES;
-let currentGuess = [];
-let nextLetter = 0;
-let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
-console.log(rightGuessString)
 
 function initBoard() {
   let board = document.getElementById("game-board");
