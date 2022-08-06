@@ -1,6 +1,6 @@
 .navbar {
   overflow: hidden;
-  background-color: #515def;
+  /* background-color: #515def; */
   border: 2px solid #white;
   border-radius: 8px;
   padding: 5px;
@@ -18,7 +18,7 @@
 .aboutus {
   float: left;
   overflow: hidden;
-  background-color: white;
+  /* background-color: white; */
 }
 .aboutus .dropbtn {
   font-size: 16px;  
@@ -26,41 +26,13 @@
   outline: none;
   color: white;
   padding: 14px 16px;
-  background-color: white;
+  /* background-color: white; */
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   text-decoration: none;
 }
-.navbar a:hover, .aboutus:hover .dropbtn {
-  background-color: #515def;
-}
-.aboutus-content {
-  display: none;
-  position: absolute;
-  background-color: white;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px #515def;
-  z-index: 1;
-  text-decoration: none;
-}
-.aboutus-content a {
-  float: none;
-  color: #515def;
-  padding: 12px 16px;
-  display: block;
-  text-align: left;
-  text-decoration: none;
-}
-.aboutus-content a:hover {
-  background-color: #515def;
-  text-decoration: none;
-}
-.aboutus:hover .aboutus-content {
-  display: block;
-  text-decoration: none;
-}
 p {
-  background-color:#515def;
+  /* background-color:#515def; */
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
   padding: none;
@@ -69,17 +41,17 @@ p {
 }
 body {
   padding: 25px;
-  background-color: white;
+  /* background-color: white; */
   color: black;
   font-size: 25px;
 }
 .dark-mode {
-  background-color: black;
+  /* background-color: black; */
   color: white;
 }
 .gameBoard {
   border: 2.5px outset grey;
-  background-color: white;    
+  /* background-color: white;     */
   text-align: center;
 }
 * {
@@ -199,7 +171,6 @@ $box-shadow2: ();
 body {
   margin:0;
   padding:0;
-  background: #000;
   overflow: hidden;
 }
 
