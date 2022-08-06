@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/purecss@2.1.0/build/pure-min.css"  integrity="sha384-yHIFVG6ClnONEA5yB5DJXfW2/KC173DIQrYoZMEtBvGzmf0PKiGyNEqe9N6BNDBH" crossorigin="anonymous">
     <link rel="stylesheet" href="main.css">
     <script src="jquery-0.6.0.min.js"></script>
-    <title>HAZELS SPARKLY WORDLE</title>
+    <title class="glow">HAZELS SPARKLY WORDLE</title>
   </head>
   <body>
-    <strong>HOW TO PLAY</strong>
+    <h1 class="glow">HAZEL'S SPARKLY WORDLE</h1>  
+    <h1 class="glow">HOW TO PLAY</h1>       
     <div class="howtoplay">
       <!-- <img src="marblesprofilepic.png" alt="marblesprofilepic" width="600" height="600">-->
       <p><img src="marblesprofilepic.png" alt="marblesprofilepic"style="max-width:100%;height:auto;"></p>
@@ -35,19 +36,11 @@
         </div>
         <input type="text" id="myText" value="Some text...">
         <div id="start">
-          <h1>Welcome to Sparkly Wordle!</h1>
-          <h1>How to Play!</h1>
-          <button id="howtoplay" class="pure-button pure-button-primary">How to play</button>
-          <button id="statistics" class="pure-button pure-button-primary">Statistics</button>
-          <button id="settings" class="pure-button pure-button-primary">Settings</button>
-          <h2>Guess the WORDLE in six tries.</h2>
-          <h2>Each guess must be a valid five-letter word. Hit the enter button to submit.</h2>
-          <h2>After each guess, the colour of the tiles will change to show how close your guess was to the word.</h2>
-          <h2>Examples</h2>
-          <h2>The letter W is in the word and in the correct spot. (Highlighted Sparkly Purple)</h2>
-          <h2>The letter I is in the word but in the wrong spot. (Highlighted Pale Purple)</h2>
-          <h2>The letter U is not in the word in any spot. (Highlighted Grey)</h2>
-          <button id="startButton">Start Game</button>
+  
+          <button id="howtoplay" class="glow">How to play</button>
+          <button id="statistics" class="glow">Statistics</button>
+          <button id="settings" class="glow">Settings</button>
+          <button id="startButton" class="glow">Start Game</button>
         </div>
         <div class="flex-container1">
           <div>1</div>
@@ -133,9 +126,16 @@
           </ol>
         </div>
 
+        <div class="buttons">
+          <button class="btn-hover color-3">BUTTON</button>
+      </div>       
+  <div class="pyro">
+    <div class="before"></div>
+    <div class="after"></div>
+  </div>
+
     <!-- Ion icons CDN -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    
     <!-- Web page script -->
     <script src="main.js"></script>
   </body>

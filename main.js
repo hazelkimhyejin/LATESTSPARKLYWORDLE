@@ -1,3 +1,16 @@
+import $ from "jquery";
+import { WORDS } from "./dictionary.js";
+// variables put all the way on top of javascript
+let currentLife = 0;
+const NUMBER_OF_GUESSES = 6;  //initialise global variables 
+let guessesRemaining = NUMBER_OF_GUESSES;
+let currentGuess = [];
+let nextLetter = 0;
+let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
+
+//nooky
+//let rightGuessString = "WORDLE"
+// console.log(rightGuessString)
 function myFunction() {
     var x = document.getElementById("myImg").src;
     document.getElementById("demo").innerHTML = x;
@@ -36,19 +49,7 @@ function myFunction() {
     var x = document.getElementById("myText").value;
     document.getElementById("demo").innerHTML = x;
   }
-  import $ from "jquery";
-  import { WORDS } from "./dictionary.js";
-  // variables put all the way on top of javascript
-  let currentLife = 0;
-  const NUMBER_OF_GUESSES = 6;  //initialise global variables 
-  let guessesRemaining = NUMBER_OF_GUESSES;
-  let currentGuess = [];
-  let nextLetter = 0;
-  let rightGuessString = WORDS[Math.floor(Math.random() * WORDS.length)]
-  
-  //nooky
-  //let rightGuessString = "WORDLE"
-  // console.log(rightGuessString)
+ 
   
   function initBoard() { // function definition that creates one row for each guess we give the user and creates 5 boxes for each row.
       //initBoard adds each row to the board container. Each row is given the class letter-row, and each box is assigned letter-box
