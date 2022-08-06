@@ -5,6 +5,68 @@ p {
   padding: 25px;
   text-decoration: none;
 }
+#score {
+  background-color: grey;
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+}
+#keyboard-cont {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  align-items: center;
+}
+
+#keyboard-cont div {
+  display: flex;
+  align-items: flex-end;
+}
+
+.second-row {
+  margin: 1rem 0;
+}
+
+.keyboard-button {
+  font-size: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  margin: 0 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+#game-board {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  margin: 0 4px;
+}
+
+.letter-box {
+  border: 2px solid gray;
+  border-radius: 3px;
+  margin: 2px;
+  font-size: 2.5rem;
+  font-weight: 700;
+  height: 3rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.filled-box {
+  border: 2px solid black;
+}
+
+.letter-row {
+  display: flex;
+}
 .gameBoard {
   border: 2.5px outset grey;
   /* background-color: white;     */
