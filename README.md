@@ -31,7 +31,7 @@ The game ends when all 6 tries are fully utilized or when player guesses the wor
 ##Future Developments##<br/>
 
 ##Summary##<br/>
-Building HAZELSSPARKLYWORDLE has enabled me to put my understanding of the Javascript language, HTML and CSS skills.
+Building HAZELSSPARKLYWORDLE has proven to be an incredibly enriching experience which enables me to put my understanding of the Javascript language, HTML and CSS skills.
 
 ##Credits##<br/>
 Cousin-in-law: @nicchoo96

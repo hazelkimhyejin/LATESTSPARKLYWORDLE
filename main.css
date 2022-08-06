@@ -1,4 +1,4 @@
-/* .navbar {
+.navbar {
   overflow: hidden;
   background-color: #515def;
   border: 2px solid #white;
@@ -252,9 +252,6 @@ body {
     margin-left: 80%;
   }
 }
-body {
-  font-family: cursive;
-} */
 
 .glow {
   font-size: 80px;
