@@ -17,95 +17,54 @@
 
 <body>
   <h1 class="glow">HAZEL'S SPARKLY WORDLE</h1>
-  <div class="howtoplay">
-    <!-- <img src="marblesprofilepic.png" alt="marblesprofilepic" width="600" height="600">-->
-    <p><img src="marblesprofilepic.png" alt="marblesprofilepic" style="max-width:100%;height:auto;"></p>
-    <div class="hideinstructions">
-      <button class="btn-hover color-3">HIDE INSTRUCTIONS</button>
+  <div class="howtoplay">HOW TO PLAY</div>
+  <!-- <img src="marblesprofilepic.png" alt="marblesprofilepic" width="600" height="600">-->
+  <p><img src="marblesprofilepic.png" alt="marblesprofilepic" style="max-width:100%;height:auto;"></p>
+  <div class="hideinstructions">
+    <button class="btn-hover color-3">HIDE INSTRUCTIONS</button>
+  </div>
+  <div class="showinstructions">
+    <button class="btn-hover color-3">SHOW INSTRUCTIONS</button>
+  </div>
+  <div class="how to play">
+    <button class="btn-hover color-3">HOW TO PLAY</button>
+  </div>
+  <div class="startgame">
+    <button class="btn-hover color-3">START GAME</button>
+  </div>
+  <div class="settings">
+    <button class="btn-hover color-3">SETTINGS</button>
+  </div>
+  <div class="scoreboard">
+    <button class="btn-hover color-3">SCOREBOARD</button>
+  </div>
+  <div class="lightmodedarkmode">
+    <button class="btn-hover color-3" onclick="myFunction()">LIGHT MODE DARK MODE</button>
+    <div id="title-container">
+      <h1>WORDLE</h1>
     </div>
-    <div class="showinstructions">
-      <button class="btn-hover color-3">SHOW INSTRUCTIONS</button>
+    <div id="board">
     </div>
-    <div class="how to play">
-      <button class="btn-hover color-3">HOW TO PLAY</button>
-    </div>
-    <div class="startgame">
-      <button class="btn-hover color-3">START GAME</button>
-    </div>
-    <div class="settings">
-      <button class="btn-hover color-3">SETTINGS</button>
-    </div>
-    <div class="scoreboard">
-      <button class="btn-hover color-3">SCOREBOARD</button>
-    </div>
-    <div class="lightmodedarkmode">
-      <button class="btn-hover color-3" onclick="myFunction()">SCOREBOARD</button>
-    /div>
-    <button onclick=" myFunction()">LIGHT MODE / DARK MODE</button>
-      <div class="pyro">
-        <div class="before"></div>
-        <div class="after"></div>
-      </div>
-      <p>hello</p>
-      <div id="gameBoard">
-          </div>
-  
-        <h1></h1>
-        <div id="keyboard-cont">
-          <div class="first-row">
-            <button class="keyboard-button">q</button>
-            <button class="keyboard-button">w</button>
-            <button class="keyboard-button">e</button>
-            <button class="keyboard-button">r</button>
-            <button class="keyboard-button">t</button>
-            <button class="keyboard-button">y</button>
-            <button class="keyboard-button">u</button>
-            <button class="keyboard-button">i</button>
-            <button class="keyboard-button">o</button>
-            <button class="keyboard-button">p</button>
-          </div>
-          <div class="second-row">
-            <button class="keyboard-button">a</button>
-            <button class="keyboard-button">s</button>
-            <button class="keyboard-button">d</button>
-            <button class="keyboard-button">f</button>
-            <button class="keyboard-button">g</button>
-            <button class="keyboard-button">h</button>
-            <button class="keyboard-button">j</button>
-            <button class="keyboard-button">k</button>
-            <button class="keyboard-button">l</button>
-          </div>
-          <div class="third-row">
-            <button class="keyboard-button">Del</button>
-            <button class="keyboard-button">z</button>
-            <button class="keyboard-button">x</button>
-            <button class="keyboard-button">c</button>
-            <button class="keyboard-button">v</button>
-            <button class="keyboard-button">b</button>
-            <button class="keyboard-button">n</button>
-            <button class="keyboard-button">m</button>
-            <button class="keyboard-button">Enter</button>
-          </div>
-        </div>
-
-      </div>
-      <div class="scores">
-        <button class="btn-hover color-3">SCORES</button>
-      </div>
-      <div id="score">
-        <h1>Score Board</h1>
-        <ol>
-          <li>Simon - 10 points</li>
-          <li>Tim - 8 points</li>
-          <li>Marbles - 7 points</li>
-        </ol>
-      </div>
+    <br>
+    <h1 id="answer"></h1>
+  </div>
+  <div class="scores">
+    <button class="btn-hover color-3">SCORES</button>
+  </div>
+  <div id="score">
+    <h1>Score Board</h1>
+    <ol>
+      <li>Simon - 10 points</li>
+      <li>Tim - 8 points</li>
+      <li>Marbles - 7 points</li>
+    </ol>
+  </div>
 
 
-      <!-- Ion icons CDN -->
-      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-      <!-- Web page script -->
-      <script src="main.js"></script>
+  <!-- Ion icons CDN -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <!-- Web page script -->
+  <script src="main.js"></script>
 </body>
 
 </html>
