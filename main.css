@@ -2,17 +2,14 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
-
 hr {
   width: 500px;
 }
-
 #title {
   font-size: 36px;
   font-weight: bold;
   letter-spacing: 2px;
 }
-
 #board {
   width: 350px;
   height: 420px;
@@ -21,14 +18,12 @@ hr {
   display: flex;
   flex-wrap: wrap;
 }
-
 .tile {
   /* Box */
   border: 2px solid lightgray;
   width: 60px;
   height: 60px;
   margin: 2.5px;
-
   /* Text */
   color: black;
   font-size: 36px;
@@ -37,26 +32,22 @@ hr {
   justify-content: center;
   align-items: center;
 }
-
 .correct {
-  background-color: #6AAA64;
+  background-color: #1bfd06;
   color: white;
   border-color: white;
 }
-
 .present {
-  background-color: #C9B458;
+  background-color: #f9f104;
   color: white;
   border-color: white;
 }
 
 .absent {
-  background-color: #787C7E;
+  background-color: #5e5e5e;
   color: white;
   border-color:white;
 }
-
-
 .keyboard-row {
   width: 400px;
 
@@ -64,12 +55,11 @@ hr {
   display: flex;
   flex-wrap: wrap;
 }
-
 .key-tile {
   width: 36px;
   height: 40px;
   margin: 1px;
-  border: 1px solid lightgray;
+  border: 1px solid rgb(230, 6, 255);
 
   /* Text */
   font-size: 20px;
@@ -78,7 +68,6 @@ hr {
   justify-content: center;
   align-items: center;
 }
-
 .enter-key-tile {
   width: 76px;
   height: 40px;
@@ -119,11 +108,9 @@ p {
   display: flex;
   align-items: flex-end;
 }
-
 .second-row {
   margin: 1rem 0;
 }
-
 .keyboard-button {
   font-size: 2rem;
   font-weight: 700;
@@ -139,7 +126,6 @@ p {
   padding: 1rem;
   margin: 0 4px;
 }
-
 .letter-box {
   border: 2px solid gray;
   border-radius: 3px;
@@ -317,7 +303,7 @@ $box-shadow2: ();
     margin-left: 80%;
   }
 }
-body {
+/* body {
   font-family: cursive;
 }
 .glow {
@@ -334,4 +320,4 @@ body {
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #1a00ea, 0 0 40px #1a00ea, 0 0 50px #1a00ea, 0 0 60px #1a00ea, 0 0 70px #1a00ea, 0 0 80px #1a00ea;
   }
-}
+} */
