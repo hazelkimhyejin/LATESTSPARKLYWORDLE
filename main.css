@@ -39,20 +39,20 @@ hr {
 }
 
 .correct {
-  background-color: #18ff03;
-  color: white;
+  background-color: #15ff00;
+  color: black;
   border-color: white;
 }
 
 .present {
-  background-color: #eeff00;
-  color: white;
+  background-color: #f8ec04;
+  color: black;
   border-color: white;
 }
 
 .absent {
-  background-color: #7d7d7d;
-  color: white;
+  background-color: #7f7f7f;
+  color: black;
   border-color:white;
 }
 
@@ -119,9 +119,11 @@ p {
   display: flex;
   align-items: flex-end;
 }
+
 .second-row {
   margin: 1rem 0;
 }
+
 .keyboard-button {
   font-size: 2rem;
   font-weight: 700;
@@ -137,6 +139,7 @@ p {
   padding: 1rem;
   margin: 0 4px;
 }
+
 .letter-box {
   border: 2px solid gray;
   border-radius: 3px;
@@ -314,7 +317,7 @@ $box-shadow2: ();
     margin-left: 80%;
   }
 }
-/* body {
+body {
   font-family: cursive;
 }
 .glow {
@@ -331,4 +334,4 @@ $box-shadow2: ();
   to {
     text-shadow: 0 0 20px #fff, 0 0 30px #1a00ea, 0 0 40px #1a00ea, 0 0 50px #1a00ea, 0 0 60px #1a00ea, 0 0 70px #1a00ea, 0 0 80px #1a00ea;
   }
-} */
+}

@@ -1,10 +1,10 @@
 ###HAZELSSPARKLYWORDLE###
-UPDATED AS OF 09082022
+UPDATED AS OF 04082022
 
 ##HAZELS SPARKLY WORDLE##<br/>
 Wordle built using JavaScript + jQuery + HTML + CSS<br/>
 
-##Try it out!## (https://latestsparklywordle.vercel.app/)<br/>
+##Try it out!## (https://hazelssparklywordle.vercel.app/)<br/>
 
 ##Description##<br/>
 HAZELSSPARKLYWORDLE is a single-player game.
